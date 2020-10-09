@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <div class="All">
+    <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="number">Number</label>
+            <input type="text" id="number"><br><br>
+            <label for="number">Major :</label>
+            <select name="major" id="major">
+                <option value="CSE">CSE</option>
+                <option value="CS">CS</option>
+                <option value="math">Math</option>
+            </select>
+            <br><br>
+            <input type="submit" onclick="read()"><br><br>
+            <button onclick="sortTheList()">Sort</button><br><br>
+        <div id="list"></div>
+        <h1>
+            Search !
+        </h1>
+        <div>
+        <label for="fname">name:</label>
+        <input type="text" id="search"><br><br>
+        <input type="submit" onclick="search()">
+         </div>
+        <div id="searchlist"></div>
+    </div>
+</div>
+</body>
+
+</html>
